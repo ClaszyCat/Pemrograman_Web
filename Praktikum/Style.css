@@ -1,0 +1,19 @@
+.intiText {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.text-datang {
+  position: absolute;
+  top: 52%;
+  left: 17.4%;
+  color: white;
+  /* transform: translate(-50%, -50%); */
+}
+
+.Footer {
+  bottom: 0;
+}
