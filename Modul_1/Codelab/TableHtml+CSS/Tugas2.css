@@ -1,20 +1,20 @@
 table {
   font-family: "Helvetica Neue";
-  background-color: #fbbe24;
+  background-color: #ffdf2b;
 }
 
 table,
 th,
 td {
-  border: 3px solid black;
+  border: 1px solid black;
 }
 
 td,
 th {
   text-align: center;
-  padding: 8px;
+  padding: 5px;
 }
 
 tr {
-  background-color: #fbbe24;
+  background-color: #ffdf2b;
 }
