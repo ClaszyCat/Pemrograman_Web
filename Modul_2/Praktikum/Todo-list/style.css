@@ -1,0 +1,65 @@
+.act {
+  width: 55rem;
+  margin-left: 32rem;
+  margin-top: 3rem;
+  border: 1px solid rgb(203, 198, 198);
+}
+
+#header {
+  background-color: #1376d2;
+}
+
+#body {
+  background-color: #35caaf;
+}
+
+#area1 {
+  width: 44.5rem;
+  height: 2.8rem;
+  border-radius: 3px;
+  border: 0.5px solid rgb(203, 198, 198);
+}
+
+.area2 {
+  width: 52.7rem;
+  height: 2.8rem;
+  border-radius: 3px;
+  border: 0.5px solid rgb(203, 198, 198);
+}
+
+.btn {
+  padding: 10px;
+  margin-bottom: 6.5px;
+  background-color: #218838;
+  width: 100%;
+}
+
+.delete {
+  background-color: #ff3333;
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.check {
+  background-color: #33cc33;
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.edit {
+  margin-right: 10px;
+  background-color: #717776;
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.complete {
+  text-decoration: line-through !important;
+}
