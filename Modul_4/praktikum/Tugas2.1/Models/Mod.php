@@ -3,8 +3,8 @@
 namespace Models;
 
 class Mod {
-    public function deviceList() {
-        $devices = [
+    public function dataList() {
+        $Datalist = [
             ["name" => "Nipis Madu", "Harga" => 3800],
             ["name" => "Indomie", "Harga" => 2500],
             ["name" => "Le Minerale", "Harga" => 2000],
@@ -13,6 +13,6 @@ class Mod {
             ["name" => "Iphone 15 Pro Max", "Harga"=> 17500000]
         ];
 
-        return $devices;
+        return $Datalist;
     }
 }

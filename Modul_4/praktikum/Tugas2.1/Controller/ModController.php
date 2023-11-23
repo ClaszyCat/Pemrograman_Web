@@ -21,7 +21,7 @@ class ModController extends Controller {
     
     public function getAllMod() {
         $Mod = new Mod;
-        $devices = $Mod->deviceList();
+        $devices = $Mod->dataList();
         $response = [
             "controller_attribute" => $this->getControllerAttribute("GetAllMod"),
             "data" => $devices
@@ -32,7 +32,7 @@ class ModController extends Controller {
 
     public function getModById($index) {
         $Mod = new Mod;
-        $devices = $Mod->deviceList();
+        $devices = $Mod->dataList();
         $response = [
             "controller_attribute" => $this->getControllerAttribute("getModById"),
             "data" => null
