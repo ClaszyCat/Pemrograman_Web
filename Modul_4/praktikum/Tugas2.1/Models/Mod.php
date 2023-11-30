@@ -12,7 +12,7 @@ class Mod {
             ["name" => "Silverqueen", "Harga" => 13500],
             ["name" => "Iphone 15 Pro Max", "Harga"=> 17500000]
         ];
-
+        
         return $Datalist;
     }
 }

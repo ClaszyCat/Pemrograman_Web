@@ -6,5 +6,5 @@ use Controller\ModController;
 
 $ModController = new ModController;
 
-echo $ModController->getAllMod();
-// echo $ModController->getModById(3);
+// echo $ModController->getAllMod();
+echo $ModController->getModById(3);
